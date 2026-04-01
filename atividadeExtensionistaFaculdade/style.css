@@ -1,0 +1,180 @@
+
+html{
+       background-color: rgb(248, 243, 233);
+    }
+
+body{
+ margin: 50 px;
+ padding: 10 px;
+
+}
+
+/*h1 font*/
+
+h1{
+    text-align: center;
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#imgLogo{
+    width: 8%;
+    text-align: left;
+    display: block;
+}
+
+nav ul{
+background-color: saddlebrown;
+text-decoration: none;
+list-style-type: none;
+color: aliceblue;
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+padding-left: 20px;
+text-align: right;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+link:hoover{
+    text-decoration: none;
+}
+
+/*Sumary*/
+.hr1{
+    border: solid 2px black;
+
+}
+
+.Sumary{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.8rem;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* TESTE saber qual a div*/
+.teste{
+    background-color: red;
+
+}
+
+
+    /*Etiquetas da pasta*/
+#tag1{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px 5px;
+    margin: 5px;
+}
+
+#tag2{
+    background-color: rgb(218, 141, 0);
+    padding: 10px;
+    border-radius: 5px 5px;
+    margin: 5px;
+}
+
+#tag3{
+    background-color: rgb(200, 255, 0);
+    padding: 10px;
+    border-radius: 5px 5px;
+    margin: 5px;
+}
+    
+    #tag4{
+    background-color: rgb(0, 255, 34);
+    padding: 10px;
+    border-radius: 5px 5px;
+    margin: 5px;
+}
+
+#tag5{
+    background-color: rgb(105, 18, 29);
+    padding: 10px;
+    border-radius: 5px 5px;
+    margin: 5px;
+    }
+    
+    #tag6{
+    background-color: rgb(255, 0, 242);
+    padding: 10px;
+    border-radius: 5px 5px;
+    margin: 5px;
+}
+
+/*Div principal*/
+
+.container{
+background-color: purple;
+width: 50%;
+text-align: center;
+margin-left: 25%;
+padding: 20px;
+}
+
+.container img{
+    width: 80%;
+   
+}
+
+/* Tópico 1: o que é toxoplasmose?*/
+
+.desc{
+    background-color: aquamarine;
+    text-align: center;
+    font: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    width: 50%;
+    margin: 1% 1% 1% 25%;
+
+}
+
+#carouselExampleCaptions{
+    width: 50%;
+    padding: 10px;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Intereja com o Gato */
+
+.container2{
+    background-color: seagreen;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.btn.btn-primary{
+    background-color: rgb(55, 13, 170);
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    width:50%;
+    text-align: center;
+    display: flex;
+
+}
+
+footer{
+    background-color: saddlebrown;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top:5px;
+}
